@@ -1,0 +1,58 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "火车票查询"
+			}
+		},
+		{
+			"path": "pages/station-select/station-select",
+			"style": {
+				"navigationBarTitleText": "选择车站"
+			}
+		},
+		{
+			"path": "pages/train/train",
+			"style": {
+				"navigationBarTitleText": "车次列表"
+			}
+		},
+		{
+			"path": "pages/train-detail/train-detail",
+			"style": {
+				"navigationBarTitleText": "车次详情"
+			}
+		},
+		{
+			"path": "pages/route-map/route-map",
+			"style": {
+				"navigationBarTitleText": "路线图"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "火车票查询",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#1E88E5",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"fontSize": "20px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/route-map/route-map",
+				"text": "路线图"
+			}
+		]
+	}
+}
